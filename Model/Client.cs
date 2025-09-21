@@ -3,16 +3,37 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Net;
 
 namespace _4RTools.Model
 {
 
     public class ClientDTO
     {
+        public int index { get; set; }
         public string name { get; set; }
         public string description { get; set; }
         public string hpAddress { get; set; }
         public string nameAddress { get; set; }
+
+        public int hpAddressPointer { get; set; }
+        public int nameAddressPointer { get; set; }
+
+        public ClientDTO() { }
+
+        public ClientDTO(string name, string description, string hpAddress, string nameAddress)
+        {
+            this.name= name;
+            this.description = description;
+            this.hpAddress = hpAddress;
+            this.nameAddress = nameAddress;
+
+            this.hpAddressPointer = Convert.ToInt32(hpAddress, 16);
+            this.nameAddressPointer = Convert.ToInt32(nameAddress, 16);
+        }
+
     }
 
 
@@ -23,6 +44,11 @@ namespace _4RTools.Model
         public static void AddClient(Client c)
         {
             clients.Add(c);
+        }
+
+        public static void RemoveClient(Client c)
+        {
+            clients.Remove(c);
         }
 
         public static List<Client> GetAll()
@@ -59,11 +85,10 @@ namespace _4RTools.Model
     {
         public Process process { get; }
 
-        private static int MAX_POSSIBLE_HP = 1000000;
         public string processName { get; private set; }
         private Utils.ProcessMemoryReader PMR { get; set; }
-        private int currentNameAddress { get; set; }
-        private int currentHPBaseAddress { get; set; }
+        public int currentNameAddress { get; set; }
+        public int currentHPBaseAddress { get; set; }
         private int statusBufferAddress { get; set; }
         private int _num = 0;
 
@@ -73,6 +98,14 @@ namespace _4RTools.Model
             this.currentHPBaseAddress = currentHPBaseAddress;
             this.processName = processName;
             this.statusBufferAddress = currentHPBaseAddress + 0x474;
+        }
+
+        public Client(ClientDTO dto)
+        {
+            this.processName = dto.name;
+            this.currentHPBaseAddress = Convert.ToInt32(dto.hpAddress, 16);
+            this.currentNameAddress = Convert.ToInt32(dto.nameAddress, 16);
+            this.statusBufferAddress = this.currentHPBaseAddress + 0x474;
         }
 
         public Client(string processName)
@@ -189,10 +222,18 @@ namespace _4RTools.Model
                 if (c.processName == processName)
                 {
                     uint hpBaseValue = ReadMemory(c.currentHPBaseAddress);
-                    if (hpBaseValue > 0 && hpBaseValue < MAX_POSSIBLE_HP) return c;
+                    if (hpBaseValue > 0) return c;
                 }
             }
             return null;
+        }
+    
+        public static Client FromDTO(ClientDTO dto)
+        {
+            return ClientListSingleton.GetAll()
+                .Where(c => c.processName == dto.name)
+                .Where(c => c.currentHPBaseAddress == dto.hpAddressPointer)
+                .Where(c => c.currentNameAddress == dto.nameAddressPointer).FirstOrDefault();
         }
     }
 }
