@@ -438,6 +438,8 @@ namespace _4RTools.Model
                 //new Buff("Shadow Armor Scroll",  EffectStatusIDs.EFST_ARMOR_PROPERTY, Resources._4RTools.Icons.shadow_armor_scroll),
                 //new Buff("Soul Scroll",  EffectStatusIDs.EFST_SOULSCROLL, Resources._4RTools.Icons.soul_scroll),
                 //new Buff("Undead Element Scroll",  EffectStatusIDs.EFST_RESIST_PROPERTY_UNDEAD, Resources._4RTools.Icons.undead_element_scroll),
+                new Buff("Glass of Illussion", EffectStatusIDs.EFST_ILLUSION, Resources._4RTools.Icons.glass_of_illusion),
+                new Buff("Fenrir's Power Scroll", EffectStatusIDs.EFST_FENRIR, Resources._4RTools.Icons.fenrirs_power_scroll),
             };
 
             return skills;

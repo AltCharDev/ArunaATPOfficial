@@ -409,6 +409,9 @@
   <data name="fear_breeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\fear_breeze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fenrirs_power_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\fenrirs_power_scroll.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fireproof" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\fireproof.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -450,6 +453,9 @@
   </data>
   <data name="ghp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\ghp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glass_of_illusion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\glass_of_illusion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gloom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\gloom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -864,6 +870,18 @@
   </data>
   <data name="strfood2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\strfood2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strip_armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\strip_armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strip_helm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\strip_helm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strip_shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\strip_shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strip_weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\strip_weapon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="str_3rd_food" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\str_3rd_food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

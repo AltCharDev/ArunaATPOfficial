@@ -108,6 +108,8 @@ namespace _4RTools.Utils
         ACCELERATION = 361,
         GATLINGFEVER = 204,
         ASSUMPTIO = 110,
+        EFST_ILLUSION = 296,
+        EFST_FENRIR = 711,
         FORCEOFVANGUARD = 391,
         UNLIMIT = 722,
         POEMBRAGI = 72,

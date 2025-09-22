@@ -799,55 +799,7 @@ namespace _4RTools.Resources._4RTools {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap strip_armor
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("strip_armor", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap strip_helm
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("strip_helm", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap strip_shield
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("strip_shield", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap strip_weapon
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("strip_weapon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -1081,6 +1033,16 @@ namespace _4RTools.Resources._4RTools {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fenrirs_power_scroll {
+            get {
+                object obj = ResourceManager.GetObject("fenrirs_power_scroll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fireproof {
             get {
                 object obj = ResourceManager.GetObject("fireproof", resourceCulture);
@@ -1244,6 +1206,16 @@ namespace _4RTools.Resources._4RTools {
         internal static System.Drawing.Bitmap ghp {
             get {
                 object obj = ResourceManager.GetObject("ghp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap glass_of_illusion {
+            get {
+                object obj = ResourceManager.GetObject("glass_of_illusion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2654,6 +2626,46 @@ namespace _4RTools.Resources._4RTools {
         internal static System.Drawing.Bitmap strfood2 {
             get {
                 object obj = ResourceManager.GetObject("strfood2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap strip_armor {
+            get {
+                object obj = ResourceManager.GetObject("strip_armor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap strip_helm {
+            get {
+                object obj = ResourceManager.GetObject("strip_helm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap strip_shield {
+            get {
+                object obj = ResourceManager.GetObject("strip_shield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap strip_weapon {
+            get {
+                object obj = ResourceManager.GetObject("strip_weapon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
