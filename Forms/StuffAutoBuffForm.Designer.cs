@@ -52,7 +52,7 @@
             this.FoodsGP.AutoSize = true;
             this.FoodsGP.Location = new System.Drawing.Point(10, 127);
             this.FoodsGP.Name = "FoodsGP";
-            this.FoodsGP.Size = new System.Drawing.Size(520, 33);
+            this.FoodsGP.Size = new System.Drawing.Size(669, 33);
             this.FoodsGP.TabIndex = 293;
             this.FoodsGP.TabStop = false;
             this.FoodsGP.Text = "Foods";
@@ -62,7 +62,7 @@
             this.BoxesGP.AutoSize = true;
             this.BoxesGP.Location = new System.Drawing.Point(10, 90);
             this.BoxesGP.Name = "BoxesGP";
-            this.BoxesGP.Size = new System.Drawing.Size(520, 31);
+            this.BoxesGP.Size = new System.Drawing.Size(669, 31);
             this.BoxesGP.TabIndex = 295;
             this.BoxesGP.TabStop = false;
             this.BoxesGP.Text = "Boxes / Speed / Status";
@@ -72,7 +72,7 @@
             this.ElementalsGP.AutoSize = true;
             this.ElementalsGP.Location = new System.Drawing.Point(10, 52);
             this.ElementalsGP.Name = "ElementalsGP";
-            this.ElementalsGP.Size = new System.Drawing.Size(520, 32);
+            this.ElementalsGP.Size = new System.Drawing.Size(669, 32);
             this.ElementalsGP.TabIndex = 296;
             this.ElementalsGP.TabStop = false;
             this.ElementalsGP.Text = "Elementals";
@@ -82,7 +82,7 @@
             this.ScrollBuffsGP.AutoSize = true;
             this.ScrollBuffsGP.Location = new System.Drawing.Point(10, 166);
             this.ScrollBuffsGP.Name = "ScrollBuffsGP";
-            this.ScrollBuffsGP.Size = new System.Drawing.Size(520, 33);
+            this.ScrollBuffsGP.Size = new System.Drawing.Size(669, 33);
             this.ScrollBuffsGP.TabIndex = 297;
             this.ScrollBuffsGP.TabStop = false;
             this.ScrollBuffsGP.Text = "Scroll Buffs";
@@ -92,7 +92,7 @@
             this.EtcGP.AutoSize = true;
             this.EtcGP.Location = new System.Drawing.Point(10, 205);
             this.EtcGP.Name = "EtcGP";
-            this.EtcGP.Size = new System.Drawing.Size(520, 33);
+            this.EtcGP.Size = new System.Drawing.Size(669, 33);
             this.EtcGP.TabIndex = 298;
             this.EtcGP.TabStop = false;
             this.EtcGP.Text = "ETC";
@@ -103,7 +103,7 @@
             this.PotionsGP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.PotionsGP.Location = new System.Drawing.Point(10, 12);
             this.PotionsGP.Name = "PotionsGP";
-            this.PotionsGP.Size = new System.Drawing.Size(520, 30);
+            this.PotionsGP.Size = new System.Drawing.Size(669, 30);
             this.PotionsGP.TabIndex = 294;
             this.PotionsGP.TabStop = false;
             this.PotionsGP.Text = "Potions";
@@ -113,7 +113,7 @@
             this.ExpGP.AutoSize = true;
             this.ExpGP.Location = new System.Drawing.Point(10, 283);
             this.ExpGP.Name = "ExpGP";
-            this.ExpGP.Size = new System.Drawing.Size(520, 33);
+            this.ExpGP.Size = new System.Drawing.Size(669, 33);
             this.ExpGP.TabIndex = 299;
             this.ExpGP.TabStop = false;
             this.ExpGP.Text = "EXP";
@@ -123,7 +123,7 @@
             this.CandiesGP.AutoSize = true;
             this.CandiesGP.Location = new System.Drawing.Point(10, 244);
             this.CandiesGP.Name = "CandiesGP";
-            this.CandiesGP.Size = new System.Drawing.Size(520, 33);
+            this.CandiesGP.Size = new System.Drawing.Size(669, 33);
             this.CandiesGP.TabIndex = 299;
             this.CandiesGP.TabStop = false;
             this.CandiesGP.Text = "Candies";
@@ -135,7 +135,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(540, 334);
+            this.ClientSize = new System.Drawing.Size(689, 334);
             this.Controls.Add(this.CandiesGP);
             this.Controls.Add(this.ExpGP);
             this.Controls.Add(this.EtcGP);

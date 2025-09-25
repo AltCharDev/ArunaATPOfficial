@@ -180,7 +180,7 @@ namespace _4RTools.Forms
             this.tabPageProfiles.Location = new System.Drawing.Point(4, 22);
             this.tabPageProfiles.Name = "tabPageProfiles";
             this.tabPageProfiles.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageProfiles.Size = new System.Drawing.Size(563, 274);
+            this.tabPageProfiles.Size = new System.Drawing.Size(669, 341);
             this.tabPageProfiles.TabIndex = 7;
             this.tabPageProfiles.Text = "Profiles";
             this.tabPageProfiles.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@ namespace _4RTools.Forms
             this.tabMacroSwitch.Location = new System.Drawing.Point(4, 22);
             this.tabMacroSwitch.Name = "tabMacroSwitch";
             this.tabMacroSwitch.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMacroSwitch.Size = new System.Drawing.Size(563, 274);
+            this.tabMacroSwitch.Size = new System.Drawing.Size(669, 341);
             this.tabMacroSwitch.TabIndex = 8;
             this.tabMacroSwitch.Text = "Macro Switch";
             this.tabMacroSwitch.UseVisualStyleBackColor = true;
@@ -200,7 +200,7 @@ namespace _4RTools.Forms
             this.tabPageSpammer.Location = new System.Drawing.Point(4, 22);
             this.tabPageSpammer.Name = "tabPageSpammer";
             this.tabPageSpammer.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSpammer.Size = new System.Drawing.Size(563, 274);
+            this.tabPageSpammer.Size = new System.Drawing.Size(711, 341);
             this.tabPageSpammer.TabIndex = 1;
             this.tabPageSpammer.Text = "Skill Spammer";
             this.tabPageSpammer.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@ namespace _4RTools.Forms
             this.tabPageAutobuffStuff.Location = new System.Drawing.Point(4, 22);
             this.tabPageAutobuffStuff.Name = "tabPageAutobuffStuff";
             this.tabPageAutobuffStuff.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAutobuffStuff.Size = new System.Drawing.Size(563, 274);
+            this.tabPageAutobuffStuff.Size = new System.Drawing.Size(669, 341);
             this.tabPageAutobuffStuff.TabIndex = 4;
             this.tabPageAutobuffStuff.Text = "Autobuff - Stuffs";
             this.tabPageAutobuffStuff.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@ namespace _4RTools.Forms
             this.tabPageAutobuffSkill.Location = new System.Drawing.Point(4, 22);
             this.tabPageAutobuffSkill.Name = "tabPageAutobuffSkill";
             this.tabPageAutobuffSkill.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAutobuffSkill.Size = new System.Drawing.Size(563, 274);
+            this.tabPageAutobuffSkill.Size = new System.Drawing.Size(669, 341);
             this.tabPageAutobuffSkill.TabIndex = 3;
             this.tabPageAutobuffSkill.Text = "Autobuff - Skills";
             this.tabPageAutobuffSkill.UseVisualStyleBackColor = true;
@@ -238,7 +238,7 @@ namespace _4RTools.Forms
             this.atkDefMode.Location = new System.Drawing.Point(25, 311);
             this.atkDefMode.Name = "atkDefMode";
             this.atkDefMode.SelectedIndex = 0;
-            this.atkDefMode.Size = new System.Drawing.Size(571, 300);
+            this.atkDefMode.Size = new System.Drawing.Size(719, 367);
             this.atkDefMode.TabIndex = 4;
             // 
             // tabDebuffRecovery
@@ -247,7 +247,7 @@ namespace _4RTools.Forms
             this.tabDebuffRecovery.Location = new System.Drawing.Point(4, 22);
             this.tabDebuffRecovery.Name = "tabDebuffRecovery";
             this.tabDebuffRecovery.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDebuffRecovery.Size = new System.Drawing.Size(563, 274);
+            this.tabDebuffRecovery.Size = new System.Drawing.Size(669, 341);
             this.tabDebuffRecovery.TabIndex = 2;
             this.tabDebuffRecovery.Text = "Debuff";
             this.tabDebuffRecovery.UseVisualStyleBackColor = true;
@@ -285,16 +285,17 @@ namespace _4RTools.Forms
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(634, 166);
+            this.pictureBox3.Location = new System.Drawing.Point(641, 166);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(85, 85);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(634, 46);
+            this.button1.Location = new System.Drawing.Point(641, 46);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 24);
             this.button1.TabIndex = 33;
@@ -304,7 +305,7 @@ namespace _4RTools.Forms
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(634, 76);
+            this.button2.Location = new System.Drawing.Point(641, 76);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 24);
             this.button2.TabIndex = 34;
@@ -314,7 +315,7 @@ namespace _4RTools.Forms
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(634, 106);
+            this.button3.Location = new System.Drawing.Point(641, 106);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(85, 24);
             this.button3.TabIndex = 35;
@@ -324,7 +325,7 @@ namespace _4RTools.Forms
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(634, 136);
+            this.button4.Location = new System.Drawing.Point(641, 136);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(85, 24);
             this.button4.TabIndex = 36;
@@ -337,7 +338,7 @@ namespace _4RTools.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(734, 626);
+            this.ClientSize = new System.Drawing.Size(756, 693);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

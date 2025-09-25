@@ -25,7 +25,7 @@ namespace _4RTools.Model
         {
             List<Buff> skills = new List<Buff>
             {
-                new Buff("Rapid", EffectStatusIDs.RAPID, Resources._4RTools.Icons.ac_concentration),
+                //new Buff("Rapid", EffectStatusIDs.RAPID, Resources._4RTools.Icons.ac_concentration),
                 new Buff("Concentration", EffectStatusIDs.CONCENTRATION, Resources._4RTools.Icons.ac_concentration),
                 new Buff("Wind Walk", EffectStatusIDs.WINDWALK, Resources._4RTools.Icons.sn_windwalk),
                 new Buff("True Sight", EffectStatusIDs.TRUESIGHT, Resources._4RTools.Icons.sn_sight),
@@ -313,6 +313,9 @@ namespace _4RTools.Model
                 //new Buff("Regeneration Potion", EffectStatusIDs.REGENERATION_POTION, Resources._4RTools.Icons.regeneration),
                 new Buff("HP Increase Potion", EffectStatusIDs.HP_INCREASE_POTION_LARGE, Resources._4RTools.Icons.ghp),
                 new Buff("SP Increase Potion", EffectStatusIDs.SP_INCREASE_POTION_LARGE, Resources._4RTools.Icons.gsp),
+                new Buff("Medium Life Potion",EffectStatusIDs.EFST_L_LIFEPOTION, Resources._4RTools.Icons.g_med_life_potion),
+                new Buff("Power Booster", EffectStatusIDs.EFST_POWER_BOOSTER, Resources._4RTools.Icons.power_booster2),
+
                 //new Buff("Red Herb Activator", EffectStatusIDs.RED_HERB_ACTIVATOR, Resources._4RTools.Icons.red_herb_activator),
                 //new Buff("Blue Herb Activator", EffectStatusIDs.BLUE_HERB_ACTIVATOR, Resources._4RTools.Icons.blue_herb_activator),
                 //new Buff("Golden X", EffectStatusIDs.REF_T_POTION, Resources._4RTools.Icons.Golden_X),
@@ -527,6 +530,7 @@ namespace _4RTools.Model
                 new Buff("Strip Shield", EffectStatusIDs.EFST_NOEQUIPSHIELD, Resources._4RTools.Icons.strip_shield),
                 new Buff("Strip Armor", EffectStatusIDs.EFST_NOEQUIPARMOR, Resources._4RTools.Icons.strip_armor),
                 new Buff("Strip Weapon", EffectStatusIDs.EFST_NOEQUIPWEAPON, Resources._4RTools.Icons.strip_weapon),
+                new Buff("Close Confine", EffectStatusIDs.EFST_RG_CCONFINE_M, Resources._4RTools.Icons.close_confine),
 
             };
 

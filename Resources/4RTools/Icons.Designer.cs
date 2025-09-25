@@ -543,6 +543,16 @@ namespace _4RTools.Resources._4RTools {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close_confine {
+            get {
+                object obj = ResourceManager.GetObject("close_confine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coldproof {
             get {
                 object obj = ResourceManager.GetObject("coldproof", resourceCulture);
@@ -2066,6 +2076,16 @@ namespace _4RTools.Resources._4RTools {
         internal static System.Drawing.Bitmap potent_venom {
             get {
                 object obj = ResourceManager.GetObject("potent_venom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap power_booster2 {
+            get {
+                object obj = ResourceManager.GetObject("power_booster2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

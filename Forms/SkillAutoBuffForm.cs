@@ -32,7 +32,8 @@ namespace _4RTools.Forms
             //skillContainers.Add(new BuffContainer(this.HyperNoviceSkillsGP, Buff.GetHyperNoviceSkills()));
             //skillContainers.Add(new BuffContainer(this.HomunculusSkillsGP, Buff.GetHomunculusBuffs()));
 
-            new BuffRenderer("Autobuff", skillContainers, toolTip1).doRender();
+            //new BuffRenderer("Autobuff", skillContainers, toolTip1).doRender();
+            new RevampedBuffRenderer("Autobuff", skillContainers, toolTip1).DoRender();
             subject.Attach(this);
         }
 

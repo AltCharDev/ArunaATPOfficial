@@ -358,5 +358,10 @@ namespace _4RTools.Forms
         {
             Process.Start("https://arunafeltz.net/wiki/index.php/Main_Page");
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

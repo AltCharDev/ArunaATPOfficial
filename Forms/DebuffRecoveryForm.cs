@@ -27,7 +27,8 @@ namespace _4RTools.Forms
             this.txtNewStatusKey.TextChanged += new EventHandler(on3RDStatusKeyChange);
 
             skillContainers.Add(new BuffContainer(this.DebuffRecoveryGP, Buff.GetDebuffs()));
-            new BuffRenderer("DebuffsRecovery", skillContainers, toolTip1).doRender();
+            //new BuffRenderer("DebuffsRecovery", skillContainers, toolTip1).doRender();
+            new RevampedDebuffRenderer("DebuffsRecovery", skillContainers, toolTip1).DoRender();
 
             subject.Attach(this);
         }

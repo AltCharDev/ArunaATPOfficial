@@ -139,9 +139,6 @@
   <data name="advance_combat_pill" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\boxes\advance_combat_pill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agi_3rd_food" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\assets\images\agi_3rd_food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="agi_biscuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\foods\agi_biscuit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1011,5 +1008,14 @@
   </data>
   <data name="wz_sightblaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\assets\images\wz_sightblaster.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agi_3rd_food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\assets\images\agi_3rd_food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_booster2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\power_booster2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_confine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\close_confine.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

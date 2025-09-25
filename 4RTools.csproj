@@ -236,12 +236,6 @@
     <Compile Include="Forms\AddServerForm.Designer.cs">
       <DependentUpon>AddServerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AdvertisementForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AdvertisementForm.Designer.cs">
-      <DependentUpon>AdvertisementForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\AHKForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -341,6 +335,9 @@
     <Compile Include="Model\Buff.cs" />
     <Compile Include="Model\BuffContainer.cs" />
     <Compile Include="Model\BuffRenderer.cs" />
+    <Compile Include="Model\RevampedDebuffRenderer.cs" />
+    <Compile Include="Model\RevampedItemRenderer.cs" />
+    <Compile Include="Model\RevampedBuffRenderer.cs" />
     <Compile Include="Model\DebuffsRecovery.cs" />
     <Compile Include="Model\LocalServerManager.cs" />
     <Compile Include="Model\StatusRecovery.cs" />
@@ -384,9 +381,6 @@
     <Compile Include="Utils\_4RThread.cs" />
     <EmbeddedResource Include="Forms\AddServerForm.resx">
       <DependentUpon>AddServerForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AdvertisementForm.resx">
-      <DependentUpon>AdvertisementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AHKForm.resx">
       <DependentUpon>AHKForm.cs</DependentUpon>

@@ -15,7 +15,7 @@ namespace _4RTools.Utils
         EFST_DF_FULLSWINGK = 1128,
         EFST_REUSE_LIMIT_ASPD_POTION = 712,
         EFST_L_LIFEPOTION = 294,
-
+        EFST_POWER_BOOSTER = 867,
         //Status
         POISON = 883,
         SILENCE = 885,
@@ -35,6 +35,7 @@ namespace _4RTools.Utils
         EFST_NOEQUIPSHIELD = 1332,
         EFST_NOEQUIPARMOR = 52,
         EFST_NOEQUIPWEAPON = 1330,
+        EFST_RG_CCONFINE_M = 201,
         // New status 3RD
         EFST_SIT = 622,
         EFST_FREEZING = 351,

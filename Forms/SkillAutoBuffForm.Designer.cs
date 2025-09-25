@@ -54,7 +54,7 @@
             this.ArcherSkillsGP.AutoSize = true;
             this.ArcherSkillsGP.Location = new System.Drawing.Point(10, 12);
             this.ArcherSkillsGP.Name = "ArcherSkillsGP";
-            this.ArcherSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.ArcherSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.ArcherSkillsGP.TabIndex = 200;
             this.ArcherSkillsGP.TabStop = false;
             this.ArcherSkillsGP.Text = "Archer Skills";
@@ -64,7 +64,7 @@
             this.SwordmanSkillGP.AutoSize = true;
             this.SwordmanSkillGP.Location = new System.Drawing.Point(10, 52);
             this.SwordmanSkillGP.Name = "SwordmanSkillGP";
-            this.SwordmanSkillGP.Size = new System.Drawing.Size(520, 30);
+            this.SwordmanSkillGP.Size = new System.Drawing.Size(668, 30);
             this.SwordmanSkillGP.TabIndex = 201;
             this.SwordmanSkillGP.TabStop = false;
             this.SwordmanSkillGP.Text = "Swordsman Skills";
@@ -74,7 +74,7 @@
             this.MageSkillGP.AutoSize = true;
             this.MageSkillGP.Location = new System.Drawing.Point(10, 92);
             this.MageSkillGP.Name = "MageSkillGP";
-            this.MageSkillGP.Size = new System.Drawing.Size(520, 30);
+            this.MageSkillGP.Size = new System.Drawing.Size(668, 30);
             this.MageSkillGP.TabIndex = 202;
             this.MageSkillGP.TabStop = false;
             this.MageSkillGP.Text = "Mage Skills";
@@ -84,7 +84,7 @@
             this.MerchantSkillsGP.AutoSize = true;
             this.MerchantSkillsGP.Location = new System.Drawing.Point(10, 132);
             this.MerchantSkillsGP.Name = "MerchantSkillsGP";
-            this.MerchantSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.MerchantSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.MerchantSkillsGP.TabIndex = 203;
             this.MerchantSkillsGP.TabStop = false;
             this.MerchantSkillsGP.Text = "Merchant Skills";
@@ -94,7 +94,7 @@
             this.ThiefSkillsGP.AutoSize = true;
             this.ThiefSkillsGP.Location = new System.Drawing.Point(10, 172);
             this.ThiefSkillsGP.Name = "ThiefSkillsGP";
-            this.ThiefSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.ThiefSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.ThiefSkillsGP.TabIndex = 204;
             this.ThiefSkillsGP.TabStop = false;
             this.ThiefSkillsGP.Text = "Thief Skills";
@@ -104,7 +104,7 @@
             this.AcolyteSkillsGP.AutoSize = true;
             this.AcolyteSkillsGP.Location = new System.Drawing.Point(10, 212);
             this.AcolyteSkillsGP.Name = "AcolyteSkillsGP";
-            this.AcolyteSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.AcolyteSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.AcolyteSkillsGP.TabIndex = 205;
             this.AcolyteSkillsGP.TabStop = false;
             this.AcolyteSkillsGP.Text = "Acolyte Skills";
@@ -114,7 +114,7 @@
             this.TKSkillGroupBox.AutoSize = true;
             this.TKSkillGroupBox.Location = new System.Drawing.Point(10, 252);
             this.TKSkillGroupBox.Name = "TKSkillGroupBox";
-            this.TKSkillGroupBox.Size = new System.Drawing.Size(520, 30);
+            this.TKSkillGroupBox.Size = new System.Drawing.Size(668, 30);
             this.TKSkillGroupBox.TabIndex = 206;
             this.TKSkillGroupBox.TabStop = false;
             this.TKSkillGroupBox.Text = "Taekwon Skills";
@@ -124,7 +124,7 @@
             this.NinjaSkillsGP.AutoSize = true;
             this.NinjaSkillsGP.Location = new System.Drawing.Point(10, 292);
             this.NinjaSkillsGP.Name = "NinjaSkillsGP";
-            this.NinjaSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.NinjaSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.NinjaSkillsGP.TabIndex = 207;
             this.NinjaSkillsGP.TabStop = false;
             this.NinjaSkillsGP.Text = "Ninja Skills";
@@ -134,7 +134,7 @@
             this.GunsSkillsGP.AutoSize = true;
             this.GunsSkillsGP.Location = new System.Drawing.Point(10, 332);
             this.GunsSkillsGP.Name = "GunsSkillsGP";
-            this.GunsSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.GunsSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.GunsSkillsGP.TabIndex = 208;
             this.GunsSkillsGP.TabStop = false;
             this.GunsSkillsGP.Text = "Gunslinger Skills";
@@ -144,7 +144,7 @@
             this.summonerSkillsGP.AutoSize = true;
             this.summonerSkillsGP.Location = new System.Drawing.Point(10, 526);
             this.summonerSkillsGP.Name = "summonerSkillsGP";
-            this.summonerSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.summonerSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.summonerSkillsGP.TabIndex = 209;
             this.summonerSkillsGP.TabStop = false;
             this.summonerSkillsGP.Text = "Summoner";
@@ -155,7 +155,7 @@
             this.HyperNoviceSkillsGP.AutoSize = true;
             this.HyperNoviceSkillsGP.Location = new System.Drawing.Point(10, 490);
             this.HyperNoviceSkillsGP.Name = "HyperNoviceSkillsGP";
-            this.HyperNoviceSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.HyperNoviceSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.HyperNoviceSkillsGP.TabIndex = 215;
             this.HyperNoviceSkillsGP.TabStop = false;
             this.HyperNoviceSkillsGP.Text = "Hyper Novice";
@@ -166,7 +166,7 @@
             this.NightWatchSkillsGP.AutoSize = true;
             this.NightWatchSkillsGP.Location = new System.Drawing.Point(8, 454);
             this.NightWatchSkillsGP.Name = "NightWatchSkillsGP";
-            this.NightWatchSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.NightWatchSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.NightWatchSkillsGP.TabIndex = 226;
             this.NightWatchSkillsGP.TabStop = false;
             this.NightWatchSkillsGP.Text = "Night Watch";
@@ -177,7 +177,7 @@
             this.SoulAsceticSkillsGP.AutoSize = true;
             this.SoulAsceticSkillsGP.Location = new System.Drawing.Point(10, 408);
             this.SoulAsceticSkillsGP.Name = "SoulAsceticSkillsGP";
-            this.SoulAsceticSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.SoulAsceticSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.SoulAsceticSkillsGP.TabIndex = 225;
             this.SoulAsceticSkillsGP.TabStop = false;
             this.SoulAsceticSkillsGP.Text = "Soul Ascetic";
@@ -199,7 +199,7 @@
             this.HomunculusSkillsGP.AutoSize = true;
             this.HomunculusSkillsGP.Location = new System.Drawing.Point(10, 368);
             this.HomunculusSkillsGP.Name = "HomunculusSkillsGP";
-            this.HomunculusSkillsGP.Size = new System.Drawing.Size(520, 30);
+            this.HomunculusSkillsGP.Size = new System.Drawing.Size(668, 30);
             this.HomunculusSkillsGP.TabIndex = 227;
             this.HomunculusSkillsGP.TabStop = false;
             this.HomunculusSkillsGP.Text = "Homunculus";
@@ -211,7 +211,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(540, 566);
+            this.ClientSize = new System.Drawing.Size(690, 566);
             this.Controls.Add(this.HomunculusSkillsGP);
             this.Controls.Add(this.HyperNoviceSkillsGP);
             this.Controls.Add(this.NightWatchSkillsGP);
